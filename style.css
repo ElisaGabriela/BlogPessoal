@@ -1,0 +1,142 @@
+* {
+
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+
+}
+.position{
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ses{
+  width: 300px;
+}
+
+body {
+  background-color: #0E2647;
+  background-image: url('Files/papel3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+header{
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 20px;
+  text-align: center;
+}
+footer{
+  color: white;
+  padding:20px;
+  margin-top: auto;
+}
+h2{
+
+  color: rgb(230, 229, 240);
+
+}
+
+.sidenav {
+
+  display : flex ;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(22, 22, 22, 0.795);
+  overflow-x: hidden;
+
+}
+
+
+.sidenav a {
+
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.sidenav a:hover {
+
+  background-color: rgb(84, 143, 211);
+  color: rgb(240, 244, 245);
+
+}
+
+#foto{
+
+    border-radius: 50%;
+    border : 1px solid black;
+
+}
+
+#coisasmim, #redes, #lado{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+main{
+  background: rgba(230, 229, 240, 0.747);
+  max-width: 1200px;
+  padding:20px;
+  border-radius: 0.5em;
+
+}
+.redes {
+
+  display : flex ;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
+  width: auto;
+  background-color: rgba(17, 5, 63, 0.795);
+
+}
+
+
+.redes a {
+
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.redes a:hover {
+
+  background-color: rgb(84, 143, 211);
+  color: rgb(240, 244, 245);
+
+}
+
+#prd{
+  color: white;
+  background-color:   #0E2647;
+  padding: 15px;
+  border-radius: 0.5em;
+  
+}
+#img{
+  border-radius: 0.5em;
+  border: 2px solid #0E2647;
+}
